@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  min-height: 16vh;
+  position: relative;
+  display: flex;
+}
+.logo {
+  position: absolute;
+  left: 90%;
+  background-color: black;
+
+  padding: 2px;
+}
+.titulo {
+  position: absolute;
+  background-color: black;
+  color: bisque;
+  border-radius: 1rem;
+}
+.imagen {
+}
+nav {
+  min-height: 5vh;
+  color: bisque;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.evento {
+  background-color: rgb(2, 2, 2);
+}
+
+main {
+  display: flex;
+  min-height: 57vh;
+  flex-direction: row;
+  background-color: bisque;
+  width: 100%;
+}
+section{
+    width: 85%;
+}
+
+.divA {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: none;
+  padding: 1rem;
+  gap: 5px;
+  max-width: 25%;
+}
+.divA :hover {
+  transform: translate(2px);
+}
+.A {
+  padding: 13px;
+  border-radius: 10px;
+  background-color: rgb(138, 100, 100);
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  height: 1rem;
+}
+table,
+th,
+td {
+  background-color: rgb(138, 100, 100);
+  border: 2px solid black;
+  gap: 10px;
+  border-collapse: collapse;
+}
+table {
+  width: 500px;
+  height: 250px;
+}
+.Secondtittle {
+  display: flex;
+  justify-content: center;
+}
+div {
+  padding: 1rem 0rem;
+}
+.datos1 {
+  
+  display: inline;
+}
+.datos2 {
+    
+  position: relative;
+  display: inline-block;
+  left: 30%;
+}
