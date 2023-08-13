@@ -10,21 +10,7 @@ min-height: 16vh;
 position: relative;
 display: flex;
 }
-/*.logo {
-position: absolute;
-right: 0%;
-top: 82%;
-background-color: black;
-padding: 10px
 
-}*/
-.logo {
-    position: absolute;
-    left: 90%;
-    background-color: black;
-  
-    padding: 2px;
-  }
   .titulo {
     position: absolute;
     background-color: black;
@@ -36,7 +22,7 @@ padding: 10px
 }
 nav {
 min-height: 5vh;
-color: rgb(242, 241, 241);
+color: bisque;
 background-color: black;
 display: flex;
 justify-content: center;
@@ -49,7 +35,7 @@ align-items: center;
 
 main {
     display: flex;
-min-height: 57vh;
+min-height: 79vh;
 flex-direction: row;
 background-color: bisque;
 width: 100%;
@@ -90,3 +76,133 @@ footer {
 
 
 }
+ /*784px*/
+ @media (max-width: 768px) {
+    .uno {
+      display: flex;
+      flex-direction: column;
+    }
+  
+  }
+    /*630*/
+    @media (max-width:620px){
+      .titulo{
+        width: 60%;
+      }
+        main{
+      display: flex;
+      flex-direction: column;
+      
+      }
+        .divA{
+          max-width: 75%;
+          height: 3rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: nowrap;
+          /*background-color: rgb(138, 100, 100);*/
+      }
+      .A{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      flex-direction: column;
+       font-size: 1rem;
+       padding: 1rem; 
+      } 
+      section{
+        max-width: 96%;
+        padding: 1rem;
+        position: relative;
+        left: 1rem;
+        
+      }
+      .logo{
+        visibility: hidden;
+      }
+      }
+      /*575*/
+      @media (max-width:575px){
+        .titulo{
+          width: 60%;
+        }
+          main{
+        display: flex;
+        flex-direction: column;
+        
+        }
+          .divA{
+            max-width: 400px;
+            height: 3rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+            /*background-color: rgb(138, 100, 100);*/
+        }
+        .A{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        flex-direction: column;
+         font-size: 1rem;
+         padding: 1rem; 
+        } 
+        section{
+          max-width: 96%;
+          padding: 1rem;
+          position: relative;
+          left: 1rem;
+          
+        }
+        .logo{
+          visibility: hidden;
+        }
+        }
+    
+  /*548*/
+  @media (max-width:548px){
+  .divA {
+    
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+  
+  flex-direction: column;  
+ position: relative;
+ 
+  
+  height: 200px;
+  width: 600px;
+   }
+  .A{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+  
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  section{
+    left: 0%;
+  
+    
+  }
+  }
+  /*395*/
+  @media (max-width:395px){
+  .divA{
+    align-items: center;
+  }
+  body{
+    width: fit-content;
+  }
+  }

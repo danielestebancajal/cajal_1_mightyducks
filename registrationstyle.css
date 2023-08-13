@@ -25,22 +25,41 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  
 }
 .evento {
   background-color: rgb(2, 2, 2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.logo {
+  /*position: absolute;
+  left: 90%;
+  background-color: black;
+  padding: 2px;*/
+  
 }
 
 main {
   display: flex;
-  min-height: 79vh;
+  min-height: 57vh;
   flex-direction: row;
   background-color: bisque;
   width: 100%;
 }
-section{
-    width: 85%;
+.rules {
+  display: flex;
+  flex-direction: column;
 }
-
+.R {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 .divA {
   flex-direction: column;
   display: flex;
@@ -63,57 +82,128 @@ section{
   align-items: center;
   height: 1rem;
 }
-table,
-th,
-td {
-  background-color: rgb(138, 100, 100);
-  border: 2px solid black;
-  gap: 10px;
-  border-collapse: collapse;
+section {
+  max-width: 80%;
 }
-table {
-  width: 500px;
-  height: 250px;
+.divB {
+  padding: 1rem;
 }
-.Secondtittle {
-  display: flex;
-  justify-content: center;
+legend {
+  font-weight: 900;
 }
-div {
-  padding: 1rem 0rem;
+section {
+  max-width: 79%;
 }
-.datos1 {
+fieldset {
+  padding: 1rem;
+}
+body{
+ width: 100%;
+}
+
+/*320px
+@media only screen and (max-width: 320px) {
   
-  display: inline;
-}
-.datos2 {
+  section {
+    max-width: 90%;
+    position: relative;
+    left: 1rem;
     
-  position: relative;
-  display: inline-block;
-  left: 30%;
   }
-  /*1027*/
- @media (max-width: 1028px) {
-p{
+  .logo {
+    visibility: hidden;
+  }
+  .titulo {
+    width: 70%;
+  }
+  .A {
+    max-width: 60px;
+    height: 60px;
+    display: flex;
+    
+  }
+  .divA {
+    
+    padding: 1rem 1rem 1rem 3px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 100px;   
+    gap: 1rem;
+    background-color: rgb(138, 100, 100);
+
+  }
+  
+  
+  main{
+    flex-direction: column;
+    max-width: 100%;
+  
+
+   }
+ 
+  .A{
+    padding: 13px;
+  border-radius: 10px;
+  background-color: rgb(138, 100, 100);
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12Px;
+  
+
+  }
+}
+/*380px
+@media only screen and (min-width: 320px) and (max-width: 380px) {
+.titulo{
+  width: 60%;
+}
+  main{
+display: flex;
+flex-direction: column;
 
 }
+  .divA{
+    max-width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(138, 100, 100);
+} 
 section{
-  max-width: 60%;
+  max-width: 83%;
+  position: relative;
+  left: 1rem;
+  
 }
-table{
-  width: 90%;
+.logo{
+  visibility: hidden;
 }
- }
-
- /*784px*/
- @media (max-width: 768px) {
+}
+/*2560*/
+@media (max-width: 2560px) {
+  body {
+    max-width: fit-content;
+  max-height: fit-content;
+  }
+  section{
+    max-width: fit-content;
+    padding: 1rem;
+  }
+  
+}
+/*784px*/
+@media (max-width: 768px) {
   .uno {
     display: flex;
     flex-direction: column;
   }
 
 }
-  /*620*/
+  /*630*/
   @media (max-width:620px){
     .titulo{
       width: 60%;
@@ -199,14 +289,12 @@ table{
   display: flex;
   align-items: stretch;
   justify-content: flex-end;
-
+ height: 15rem ;
 flex-direction: column;  
-position: relative;
+padding: 0;
 
-
-top: 4rem;
-max-width: 600px;
-max-height: fit-content;
+width: 600px;
+gap: 9px;
 }
 .A{
   display: flex;
@@ -223,7 +311,6 @@ main{
 }
 section{
   left: 0%;
-  top: 5rem;
 
   
 }
@@ -233,15 +320,4 @@ section{
 .divA{
   align-items: center;
 }
-body{
-  width: fit-content;
-}
-}
-/*494*/
-@media (max-width: 494px) {
-  .divA{
-    position: relative;
-    height: 200px;
-  }
-
 }
