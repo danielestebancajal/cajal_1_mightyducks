@@ -19,22 +19,16 @@
       />
     </header>
     <nav>
-      
       <h1 class="evento">REGISTRATION FORM</h1>
-    
-      
-
-       
-      
     </nav>
 
     <main>
       <div class="divA">
         <img
-        class="logo"
-        src="img/Logo Mighty ducks-01.png"
-        alt="logo del equipo"
-        width="150px"
+          class="logo"
+          src="img/Logo Mighty ducks-01.png"
+          alt="logo del equipo"
+          width="150px"
         />
         <a class="A" href="index.html">Home</a>
         <a class="A" href="AboutMDHL.html">About MDHL</a>
@@ -42,42 +36,48 @@
         <a class="A" href="Rules.html">Rules</a>
         <a class="A" href="GameInformation.html">Game Information</a>
         <a class="A" href="registrationform.html#">Registration Form</a>
-        
-      
       </div>
       <section>
-        
-        <form action="show_data.html">
+        <form action="./show_data.html">
           <fieldset class="uno">
-            <label for="nombre">Player´s First Name:</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Daniel" />
-            <label for="apellido">Apellido:</label>
-            <input
-              type="text"
-              name="Apellido"
-              id="apellido"
-              placeholder="Cajal"
-            />
+            <label>
+              Player´s First Name:
+              <input type="text" name="nombre" placeholder="Daniel" />
+            </label>
+
+            <label>
+              Apellido:
+              <input type="text" name="Apellido" placeholder="Cajal" />
+            </label>
           </fieldset>
           <fieldset class="dos">
-            <label for="street">Street Adress:</label>
-            <input type="text" name="street" id="street" />
+            <label>
+              Street Adress:
+              <input type="text" name="street" />
+            </label>
           </fieldset>
           <fieldset class="tres">
-            <label for="city">City:</label>
-            <input type="text" name="city" id="city" />
-            <label for="zipcode">Zip Code:</label>
-            <input type="number" name="zipcode" id="zipcode" />
+            <label>
+              City:
+              <input type="text" name="city" />
+            </label>
+
+            <label>
+              Zip Code:
+              <input type="number" name="zipcode" />
+            </label>
           </fieldset>
           <fieldset class="cuatro">
-            <label for="Birth">Birth Date (DD/MM/YYY):</label>
-            <input type="number" name="Birth" id="Birth" />
+            <label>
+              Birth Date (DD/MM/YYY):
+              <input type="date" name="Birth" />
+            </label>
           </fieldset>
           <fieldset>
-
-            
-            <label for="Gender">Gender:</label>
-            <input class="male" type="radio" id="Gender" name="Gender" />
+            <label>
+              Gender:
+              <input class="male" type="radio" id="Gender" name="Gender" />
+            </label>
             <label for="Gender">male</label>
             <input class="female" type="radio" id="Gender" name="Gender" />
             <label for="Gender">female</label>
@@ -140,7 +140,9 @@
             <label for="school">South Elementary</label>
           </fieldset>
           <fieldset class="siete">
-            <legend>What position(s) do you normally play? (check all that apply)</legend>
+            <legend>
+              What position(s) do you normally play? (check all that apply)
+            </legend>
             <input
               type="checkbox"
               name="position"
@@ -192,19 +194,32 @@
             <input type="radio" name="Size" id="Size" value="Snall" />
             <label for="Size">Small</label>
           </fieldset>
-        </form>
+        
         <h2>Perimission to play</h2>
-        <p>l, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDI-IL sponsored activities,which transportation
-          By signing below, I herebyagree andauthorizethe above.ln addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.
-          </p>
-          <fieldset class="nueve">
-            <label for="Parent">Parent/Guardian Signature:</label>
-            <input type="text" name="Parent" id="Parent" >
-            <label for="Date">Date:</label>
-            <input type="text" name="Date" id="Date" >
-            <input type="submit" value="Enviar">
-          </fieldset>
+        <p>
+          l, the parent or guardian of the minor registrant, agree that the
+          registrant and I will abide by all the rules of the Mighty Ducks
+          Hockey League (MDHL). In recognizing the possibility of physical
+          injury associated with hockey and in consideration for the "League"
+          accepting the registrant for its hockey programs and activities, I
+          hereby release, discharge, and/or otherwise indemnify MDHL, their
+          employees and associated personnel and volunteers,including the
+          facilities used for practices and games, against any claim by or on
+          behalf of the registrant as a result of the registrant's participation
+          in the programand/orbeing transported to or from MDI-IL sponsored
+          activities,which transportation By signing below, I herebyagree
+          andauthorizethe above.ln addition, by signing below, lalso acknowledge
+          that I have read the cancellation policy and agree to its terms.
+        </p>
+        <fieldset class="nueve">
+          <label for="Parent">Parent/Guardian Signature:</label>
+          <input type="text" name="Parent" id="Parent" />
+          <label for="Date">Date:</label>
+          <input type="date" name="Date" id="Date" />
+          <input type="submit"/>
+        </fieldset>
       </section>
+    </form>
     </main>
     <footer></footer>
   </body>
